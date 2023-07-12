@@ -3,6 +3,7 @@ import data from '../../api/data'
 import HeaderP from '../../componets/HeaderP'
 import Footer from '../../componets/Footer'
 import Link from 'next/link';
+import Image from 'next/image';
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 export default function ProductPage({params}){
@@ -21,7 +22,7 @@ export default function ProductPage({params}){
           <p className='text-boneText'><Link href='../' >Arıtma cihazları</Link><span className='text-secondary text-xl'> &gt;</span> {item.name}</p>
           <div className='w-full h-auto md:h-[480px]  flex flex-col md:gap-0 gap-7  md:justify-center md:flex-row '>
               <div className='md:w-2/5 h-full ml-0  md:border-r-2'> 
-                  <img src={item.image} alt='product-img' className='cover w-full h-full'/> </div>
+                  <Image src={item.image} width={200} height={100}  alt='product-img' className='cover w-full h-full'/> </div>
               <div className='md:w-1/2 h-full mr-0  px-5'>
                   <h1 key={item.id} className='text-2xl md:text-3xl mt-0 mb-5'>{item.name}</h1>
                   <p className='text-boneText  mb-4'>{item.description}</p>
