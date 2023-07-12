@@ -1,8 +1,8 @@
 import React from 'react'
-import { BiPhone } from 'react-icons/Bi';
-import { AiOutlineMail } from 'react-icons/Ai';
-import { ImLocation } from 'react-icons/Im';
-import { AiFillFacebook } from 'react-icons/Ai';
+import { BiPhone } from 'react-icons/bi';
+import { AiOutlineMail } from 'react-icons/ai';
+import { ImLocation } from 'react-icons/im';
+import { AiFillFacebook } from 'react-icons/ai';
 
 export default function Footer() {
   return (

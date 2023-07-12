@@ -1,6 +1,6 @@
 import React from 'react'
-import { GiDrill } from 'react-icons/Gi';
-import { BsWrenchAdjustable } from 'react-icons/Bs';
+import { GiDrill } from 'react-icons/gi';
+import { BsWrenchAdjustable } from 'react-icons/bs';
 
 
 export default function Services() {
