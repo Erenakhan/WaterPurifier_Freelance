@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "name": "Aqua UltraPure",
+        "description": "Ultra saf su elde etmeniz için geliştirilmiş yüksek teknoloji su arıtma cihazı.",
+        "price": 499.99,
+        "image": "",
+        "lt": true
+    },
+    {
+        "id": 1,    
+        "name": "Aqua PureLife",
+        "description": "Günlük hayatta ihtiyacınız olan tüm suyu arıtarak sağlıklı bir yaşam sunar.",
+        "price": 349.99,
+        "image": "https://www.example.com/images/aqua-purelife.jpg",
+        "lt": false
+    },
+    {
+        "id": 2,
+        "name": "Aqua HydroClean",
+        "description": "HydroClean teknolojisi ile suyunuzdaki tüm zararlı maddeleri temizler.",
+        "price": 299.99,
+        "image": "https://www.example.com/images/aqua-hydroclean.jpg",
+        "lt": true
+    },
+    {
+        "id": 3,
+        "name": "Aqua LifeGuard",
+        "description": "Suyunuzu arıtarak sağlıklı ve temiz şeffaf suya erişiminizi sağlar o bir harika.",
+        "price": 249.99,
+        "image": "https://www.example.com/images/aqua-lifeguard.jpg",
+        "lt": false
+    },
+    {
+        "id": 4,
+        "name": "Aqua NaturalFlow",
+        "description": "NaturalFlow teknolojisi ile suyunuzu doğal akışında arıtarak sağlıklı su elde edersiniz.",
+        "price": 199.99,
+        "image": "https://www.example.com/images/aqua-naturalflow.jpg",
+        "lt": true
+    }
+]
