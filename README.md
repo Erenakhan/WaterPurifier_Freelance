@@ -1,6 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+I made a water purifier Website for my costumer 
+I used,
+Next js
+whatsapp icon: [https://www.npmjs.com/package/react-floating-whatsapp]
+react slick : [https://react-slick.neostack.com/docs/example/responsive/]
+tailwindcss : [https://tailwindcss.com/]
+
+
 
 ## Getting Started
+
+
+
+
+
 
 First, run the development server:
 
