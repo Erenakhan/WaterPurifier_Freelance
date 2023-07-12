@@ -12,7 +12,7 @@ export default function Banner() {
     className='w-full h-full'
   />
     <div className="container   text-white absolute z-20 w-1/2 text-center left-0 top-0 h-full text-sm md:text-3xl  xl:text-5xl flex justify-center items-center
-    ">Sağlığınız İçin <br/>Aqua Natural'i seçin </div>
+    ">Sağlığınız İçin <br/>Aqua Natural&apos;i seçin</div>
 </div>
   )
 }

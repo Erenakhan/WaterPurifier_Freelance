@@ -1,6 +1,7 @@
 import React from 'react'
 import data from '../api/data'
 import Slider from "react-slick";
+import Image from 'next/image';
 
 export default function Products() {
   const settings = {
@@ -50,7 +51,9 @@ export default function Products() {
     transform transition duration-500 hover:scale-110 hover:border-primary
     'key={e.id}>
       
-        <img src="{e.image}" alt="img" className='w-[120px] h-[120px] md:w-[180px] md:h-[180px] border-2 mx-auto my-4 ' />
+      <Image src={e.image} alt="img" width={120} height={120} className='w-[120px] h-[120px] md:w-[180px] md:h-[180px] border-2 mx-auto my-4 ' />
+
+
         <p className='w-full border-b-2 m-auto text-lg'>{e.name}</p> 
         <p className='text-sm  h-14 pt-2 text-boneText'>{e.description}</p>
 

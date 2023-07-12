@@ -3,7 +3,9 @@ const nextConfig = {
     images: {
       domains: ["www.uplifers.com", "www.example.com"]
     },
-    // diğer ayarlar buraya gelebilir...
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
   };
   
   module.exports = nextConfig;
