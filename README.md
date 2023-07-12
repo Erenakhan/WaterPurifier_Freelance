@@ -1,9 +1,9 @@
-I made a water purifier Website for my costumer 
-I used,
-Next js
-whatsapp icon: [https://www.npmjs.com/package/react-floating-whatsapp]
-react slick : [https://react-slick.neostack.com/docs/example/responsive/]
-tailwindcss : [https://tailwindcss.com/]
+##  I made a water purifier Website for my costumer <br/> 
+I used, <br/>
+Next js <br/>
+whatsapp icon: [https://www.npmjs.com/package/react-floating-whatsapp] <br/>
+react slick : [https://react-slick.neostack.com/docs/example/responsive/] <br/>
+tailwindcss : [https://tailwindcss.com/] <br/>
 
 
 
