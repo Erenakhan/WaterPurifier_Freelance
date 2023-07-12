@@ -26,7 +26,7 @@ export default function Home() {
     <FloatingWhatsApp
      phoneNumber="+9005060593069"
       accountName="Aqua Natural Su Arıtma"
-      avatar="http://localhost:3000/_next/image?url=%2Flogo.png&w=256&q=75"
+      avatar="https://aquanatural.net/_next/image?url=%2Flogo.png&w=256&q=75"
       statusMessage="1dk içinde yanıt"
       chatMessage="Merhaba Efendim, Size Nasıl Yardımcı Olabiliriz?"/>
   </main>
