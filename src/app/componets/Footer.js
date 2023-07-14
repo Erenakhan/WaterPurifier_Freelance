@@ -34,7 +34,7 @@ export default function Footer() {
       <div className='w-3/4 h-1/3 ml-0 mb-0   flex flex-row items-center'>
       <AiFillFacebook className='text-white text-5xl hover:text-secondary hover:scale-105' />
         <h3 className='text-white   h-fit text-md md:ml-2'>
-          Bizi Sosyal Medyadan takip edin</h3><a href='#' className='ml-2'></a>
+          Bizi Sosyal Medyadan takip edin</h3><a href="https://www.facebook.com/profile.php?id=100067882443318"className='ml-2'></a>
       </div>
       <div className='w-3/4 h-1/3 mt-5  flex items-center'>
 
