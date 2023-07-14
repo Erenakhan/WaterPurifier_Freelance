@@ -13,7 +13,7 @@ export default function Header() {
       </div>
       <div>
       <div className='flex justify-center space-x-4 md:space-x-12 
-      text-[10px] text-semibold md:text-lg lg:text-xl xl:text-2xl my-10 md:my-20 mr-10 '>
+      text-[10px] bold text-semibold md:text-lg lg:text-xl xl:text-2xl my-10 md:my-20 mr-10  '>
         <a href="#products" className=" group transition duration-300">
           Ürünlerimiz
           <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-third"></span>

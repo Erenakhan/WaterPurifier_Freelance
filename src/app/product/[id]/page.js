@@ -152,7 +152,8 @@ export default function ProductPage({ params }) {
                       5 Kg</li>
                 </ul>
               </div>
-              <div className='md:w-1/5 mt-5 h-fit md:mt-[280px] px-5 md:px-0'>
+              <div className='md:w-1/5 mt-5 h-fit md:mt-[270px] px-5 md:px-0'>
+                <h1 className='mx-auto text-xl semibold text-center text-larger mb-2'>Tank-Pompa Seçiniz..</h1>
                 <form>
                   <label htmlFor='underline_select' className='sr-only'>
                     Underline select
@@ -163,7 +164,7 @@ export default function ProductPage({ params }) {
                     value={selectedValue}
                     onChange={handleChange}
                   >
-                    <option value='' disabled>
+                    <option value='' disabled selected>
                       Tank Seçimi..
                     </option>
                     <option value=''>8lt Krom Tank</option>
@@ -182,8 +183,10 @@ export default function ProductPage({ params }) {
                     className='block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer'
                     value={selectedValue2}
                     onChange={handleChange2}
+                    defaultValue=''
+
                   >
-                    <option value='' disabled >
+                    <option value='' disabled selected >
                       Pompa Seçimi..
                     </option>
                     <option value="">Pompasız</option>

@@ -90,7 +90,7 @@ export default function Products() {
   
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -130,19 +130,20 @@ export default function Products() {
     <div className='w-[98%]  h-120  text-center' id='products'>
        <h1 className=' text-xl lg:text-3xl mt-8 text-semibold'>Arıtma Cihazlarımız</h1>
        <div className='mt-4 md:mt-8'>
-       <Slider className='px-[60px] ' {...settings}>  
+       <Slider className='px-[25px] md:px-[60px] ' {...settings}>  
        {
     data.map((e) => 
-    <div className='border-2 h-[380px] w-auto px-4  my-10 
+    <a href={`./product/${e.id}`} key={e.id}>
+    <div className='border-2 border-boneText h-[380px] w-auto px-4  my-10 
     transform transition duration-500 hover:scale-110 hover:border-primary
     'key={e.id}>
-      
-      <Image src={e.image}
- alt="img" width={150} height={150} className='  mx-auto my-4 ' />
-{/* w-[120px] h-[120px] md:w-[180px] md:h-[180px]  */}
 
-        <p className='w-full border-b-2 m-auto text-lg'>{e.name}</p> 
-        <p className=' text-xs md:text-sm  h-auto pt-2 text-boneText '>{e.description}</p>
+      <Image src={e.image}
+      alt="img" width={150} height={150} className='  mx-auto my-4 ' />
+
+
+        <p className='w-full text-md border-b-2 m-auto md:text-lg'>{e.name}</p> 
+        <p className='text-xs md:text-sm  h-20 pt-2 text-boneText '>{e.description}</p>
 
         <p className='flex justify-around  mt-[45px] md:mt-6'>
 
@@ -150,6 +151,7 @@ export default function Products() {
         <a className='flex justify-betwen text-sm md:text-md' href={`./product/${e.id}`}>Daha Fazla</a></p> 
         {e.price}₺</p>
         </div>
+        </a>
     )
 }
 </Slider>
