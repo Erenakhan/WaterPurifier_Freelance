@@ -10,7 +10,6 @@ export default function Footer() {
     <div className='h-auto'>
     <div className='w-full gap-[48px] md:gap-0 h-auto bg-last flex  flex-col-reverse md:flex-row py-4 px-5' id='footer sm:mx-auto'>
       <div className=' w-auto md:w-1/3 h-full pt-5 flex justify-between'>
-        {/* <Image src='/logo.png' alt='logo' width={42} height={42} className=' min-w-42 min-h-40 '/> */}
           <Image src="/logo.png" alt="logo" width="150" height="150"  className="w-[85px] h-[80px] md:h-[120px] md:w-[130px] lg:h-[150px] lg:w-[160px] "  />
         <p className='text-white pt-2'> <span className='sm:text-md text-xl'>Aqua Natural</span>, 2017 yılından bu yana Gaziantep&apos;te su artma teknolojileri konusunda öncülük etmekteyiz. Yüksek kaliteli ürünlerimizle tüketicilere doğal ve saf su sağlamaktayız. Güvendiğiniz marka, Aqua Natural.</p>
       </div>

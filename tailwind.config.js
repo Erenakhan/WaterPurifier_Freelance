@@ -1,3 +1,5 @@
+
+const colors = require('tailwindcss/colors')
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -5,6 +7,7 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  
   
   theme: {
     extend: {
@@ -22,8 +25,18 @@ module.exports = {
       'white':'#ffffff', 
       'foot':'#000000', 
       'bone': '#f4f4f4',
-      'boneText': '#424245'
-    }, 
+      'boneText': '#424245',
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      white: colors.white,
+      emerald: colors.emerald,
+      indigo: colors.indigo,
+      yellow: colors.yellow,
+      
+    },
+    
+   
      
   
   },
