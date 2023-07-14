@@ -1,9 +1,11 @@
 ##  I made a water purifier Website for my costumer <br/> 
 I used, <br/>
 Next js <br/>
-whatsapp icon: [https://www.npmjs.com/package/react-floating-whatsapp] <br/>
-react slick : [https://react-slick.neostack.com/docs/example/responsive/] <br/>
-tailwindcss : [https://tailwindcss.com/] <br/>
+whatsapp icon: https://www.npmjs.com/package/react-floating-whatsapp <br/>
+react slick : https://react-slick.neostack.com/docs/example/responsive/ <br/>
+tailwindcss : https://tailwindcss.com/<br/>
+
+# live : https://aquanatural.net/
 
 
 
