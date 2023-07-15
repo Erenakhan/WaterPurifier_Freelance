@@ -39,7 +39,7 @@ export default function Products() {
     {
       "id": 4,
       "name": "Aqua Natural Ecobolero",
-      "description": "Aqua Natural Ecobolero, Suyunuzu zararlı maddelerden arındırarak verir.",
+      "description":"Aqua Natural Ecobolero,Suyunuzu zararlı maddelerden arındırır.",
       "price": 2290,
       "image": "/ecoboleropompasız.png"
     },
@@ -81,7 +81,7 @@ export default function Products() {
     {
       "id": 10,
       "name": "Aqua Natural Açık Kasa",
-      "description": "Aqua Natural Açık Kasa suyu tüm doğallığıyla çeşmenize getirir.",
+      "description": "Aqua Natural Açık Kasa suyu doğallığıyla çeşmenize getirir.",
       "price": 2290,
       "image": "/ak2.jpg"
     }
@@ -127,10 +127,10 @@ export default function Products() {
   
   return (
     <div className='w-100'>
-    <div className='w-[98%]  h-120  text-center' id='products'>
+    <div className='w-[85%] mx-auto md:w-[96%]  h-120  text-center' id='products'>
        <h1 className=' text-xl lg:text-3xl mt-8 text-semibold'>Arıtma Cihazlarımız</h1>
        <div className='mt-4 md:mt-8'>
-       <Slider className='px-[25px] md:px-[60px] ' {...settings}>  
+       <Slider className='px-[8px] md:px-[60px] ' {...settings}>  
        {
     data.map((e) => 
     <a href={`./product/${e.id}`} key={e.id}>
@@ -143,7 +143,7 @@ export default function Products() {
 
 
         <p className='w-full text-md border-b-2 m-auto md:text-lg'>{e.name}</p> 
-        <p className='text-xs md:text-sm  h-20 pt-2 text-boneText '>{e.description}</p>
+        <p className='text-xs md:text-sm h-20 pt-2 text-boneText '>{e.description}</p>
 
         <p className='flex justify-around  mt-[45px] md:mt-6'>
 

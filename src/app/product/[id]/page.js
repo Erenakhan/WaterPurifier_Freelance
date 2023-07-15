@@ -50,7 +50,7 @@ export default function ProductPage({ params }) {
     {
       "id": 4,
       "name": "Aqua Natural Ecobolero",
-      "description": "Aqua Natural Ecobolero, Suyunuzu zararlı maddelerden arındırarak verir.",
+      "description": "Aqua Natural Ecobolero, Suyunuzu zararlı maddelerden arındırır.",
       "price": 2290,
       "image": "/ecoboleropompasız.png"
     },
@@ -92,7 +92,7 @@ export default function ProductPage({ params }) {
     {
       "id": 10,
       "name": "Aqua Natural Açık Kasa",
-      "description": "Aqua Natural Açık Kasa suyu tüm doğallığıyla çeşmenize getirir.",
+      "description": "Aqua Natural Açık Kasa suyu doğallığıyla çeşmenize getirir.",
       "price": 2290,
       "image": "/ak2.jpg"
     }
