@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Aqua Natural Su Arıtma',
-  description: 'Gaziantep\'in en güvenilir su arıtmacısı',
+  description: 'Gaziantep\'in en güvenilir su arıtması',
 }
 
 export default function RootLayout({ children }) {
