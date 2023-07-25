@@ -169,7 +169,7 @@ export default function ProductPage({ params }) {
                       Tank Seçimi..
                     </option>
                     <option value=''>8lt Krom Tank</option>
-                    <option value='true'>12lt Krom Tank(+300₺)</option>
+                    <option value='true'>12lt Krom Tank (+500₺)</option>
                 
                   </select>
                 </form>
@@ -191,13 +191,13 @@ export default function ProductPage({ params }) {
                       Pompa Seçimi..
                     </option>
                     <option value="">Pompasız</option>
-                    <option value='true'>Pompalı (+600₺)</option>
+                    <option value='true'>Pompalı (+700₺)</option>
                 
                   </select>
                 </form>
 
                 <div id='price' className='w-full h-[110px] text-2xl '>
-                  Fiyat: {(selectedValue && selectedValue2) ? item.price + 900 : selectedValue ? item.price + 300 : selectedValue2 ? item.price + 600 : item.price}₺
+                  Fiyat: {(selectedValue && selectedValue2) ? item.price + 1200 : selectedValue ? item.price + 500 : selectedValue2 ? item.price + 700 : item.price}₺
                   <p className='text-boneText  text-[16px] md:text-lg mt-3'>
                     <span className='text-secondary text-xl'> &gt;</span> Kredi Kartına 9 Taksit ve
                   </p>
