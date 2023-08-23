@@ -10,21 +10,14 @@ export const metadata = {
     'gaziantep su arıtma',
     'su arıtma gaziantep',
     'su arıtma',
+    'artima',
     'su arırma cihazı',
+    'su arirma cihazı',
     'arıtma sistemleri',
     'arıtma cihazları',
     'filtre',
     'arıtma filtreleri'
-  ],
-  robots: {
-    index: false,
-    follow: true,
-    nocache: true,
-    googleBot: {
-      index: false,
-      follow: false
-    }
-  }
+  ]
 };
 
 export default function RootLayout({ children }) {
