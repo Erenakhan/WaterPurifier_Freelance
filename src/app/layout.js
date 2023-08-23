@@ -5,7 +5,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Aqua Natural Su Arıtma',
-  description: "Gaziantep'in su arıtma markası",
+  description: 'Gaziantep\'in su arıtma markası',
+
   keywords: [
     'gaziantep su arıtma',
     'su arıtma gaziantep',
