@@ -20,12 +20,14 @@ export default function Services() {
         </div>
 
         <div className='mx-auto p-2 md:p-0 h-[140px] w-[275px] md:h-[275px] md:w-[275px] border-2 rounded-3xl flex flex-col bg-white'>
-        <Image src="/filter.png" 
+              <Image
+        src="/filter.png"
         alt='filter image'
+        loading="lazy"
         width={100}
         height={130}
-
-        className='mx-auto w-[65px] h-[73px] md:w-[105px] md:h-[130px]  md:mt-8' />
+        className='mx-auto w-[65px] h-[73px] md:w-[105px] md:h-[130px] md:mt-8'
+      />
         <p className='md:mt-4 text-center text-2xl text-semibold '>Filtre Değişimi</p>
         <p className='mt-1 text-center text-sm'>Tüm Cihazların Filtre Değişimi</p>
         </div>

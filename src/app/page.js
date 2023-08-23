@@ -24,6 +24,7 @@ export default function Home() {
     <Sub />
     <Footer />
     <FloatingWhatsApp
+    
      phoneNumber="+9005060593069"
       accountName="Aqua Natural Su Arıtma"
       avatar="https://aquanatural.net/_next/image?url=%2Flogo.png&w=256&q=75"

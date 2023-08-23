@@ -136,7 +136,8 @@ export default function Products() {
     <a href={`./product/${e.id}`} key={e.id}>
     <div className='border-2 border-boneText h-[380px] w-auto px-4  my-10 
     transform transition duration-500 hover:scale-110 hover:border-primary
-    'key={e.id}>
+      'key={e.id}
+      aria-label={e.name} >
 
       <Image src={e.image}
       alt="img" width={150} height={150} className='  mx-auto my-4 ' />

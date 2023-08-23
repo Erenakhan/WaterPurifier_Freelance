@@ -6,7 +6,16 @@ export default function Info() {
     <div className='h-[700px] md:h-[430px] mx-10 my-[120px]  flex md:justify-between flex-col md:flex-row'>
 
        <div  className='w-full md:w-1/2 md:ml-0 h-full my-auto flex align-center'>
-       <Image src="https://www.uplifers.com/app/uploads/2016/10/su-icen-kadin.jpg" style={{objectFit: "contain"}}  width={720} height={420}  alt='info'/>
+
+
+          <Image
+            alt="info"
+            loading="lazy"
+            width={720}
+            height={420}
+            src="https://www.uplifers.com/app/uploads/2016/10/su-icen-kadin.jpg"
+            style={{ objectFit: "contain" }}
+          />
 
        </div>
         <div className='w-full md:w-1/2 md:mr-0 ml-0 h-[550px] p-10 '>

@@ -49,7 +49,7 @@ export default function Sub() {
             onChange={handleChange}
           />
           <button className="min-w-[50px] max-w-[90px] h-12 m-auto rounded-lg bg-white hover:text-primary hover:scale-110 text-sm md:text-md md:p-0">
-            <BiMailSend className="w-[27px] h-[27px] m-auto" />
+            <BiMailSend className="w-[27px] h-[27px] m-auto" alt="Send" />
           </button>
         </div>
       </form>
