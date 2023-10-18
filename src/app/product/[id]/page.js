@@ -23,77 +23,77 @@ export default function ProductPage({ params }) {
       "id": 0,
       "name": "Aqua Natural Evro",
       "description": "Aqua Natural Evro, yüksek performansıyla suyun doğallığını koruyarak mutfağınıza getirir.",
-      "price": 2690,
+      "price": 3190,
       "image": "/evropompasız.png"
     },
     {
       "id": 1,
       "name": "Aqua Natural Bolero",
       "description": "Aqua Natural Bolero, doğallığı koruyan bir su arıtma cihazı için Bolero doğru tercih..",
-      "price": 2590,
+      "price": 3090,
       "image": "/boleropompasız.png"
     },
     {
       "id": 2,
       "name": "Aqua Natural Krs",
       "description": "Aqua Natural Krs, zararlı maddeleri arındıran bir su  için doğru tercih Krs arıtma cihazı.",
-      "price": 2690,
+      "price": 3190,
       "image": "/krspompasız.png"
     },
     {
       "id": 3,
       "name": "Aqua Natural Ecoevro",
       "description": "Aqua Natural Ecoevro,Su kaynaklarınızı sağlıklı şekilde kullanmanızı sağlar.",
-      "price": 2590,
+      "price": 3090,
       "image": "/ecoevropompalı.png"
     },
     {
       "id": 4,
       "name": "Aqua Natural Ecobolero",
       "description":"Aqua Natural Ecobolero,Suyunuzu zararlı maddelerden arındırır.",
-      "price": 2590,
+      "price": 3090,
       "image": "/ecoboleropompasız.png"
     },
     {
       "id": 5,
       "name": "Aqua Natural Evro",
       "description": "Aqua Natural Evro, yüksek performansıyla suyun doğallığını koruyarak mutfağınıza getirir..",
-      "price": 2690,
+      "price": 3190,
       "image": "/evropompalı.png"
     },
     {
       "id": 6,
       "name": "Aqua Natural Bolero",
       "description": "Aqua Natural Bolero, doğallığı koruyan bir su arıtma cihazı için Bolero doğru tercih.",
-      "price": 2590,
+      "price": 3090,
       "image": "/boleropompalı.png"
     },
     {
       "id": 7,
       "name": "Aqua Natural Krs",
       "description": "Aqua Natural Krs, Suyun doğal haliyle kalmasını sağlarken, zararlı maddeleri filtreler.",
-      "price": 2690,
+      "price": 3190,
       "image": "/krspompalı.png"
     },
     {
       "id": 8,
       "name": "Aqua Natural Eco One",
       "description": "Aqua Natural Eco One,Yüksek performansıyla maddelerden arındırır.",
-      "price": 2490,
+      "price": 2990,
       "image": "/ecoonepompalı.png"
     },
     {
       "id": 9,
       "name": "Aqua Natural Eco One",
       "description": "Aqua Natural Eco One,Yüksek performansıyla suyunuzu arındırırr.",
-      "price": 2490,
+      "price": 2990,
       "image": "/ecooneblue.png"
     },
     {
       "id": 10,
       "name": "Aqua Natural Açık Kasa",
       "description": "Aqua Natural Açık Kasa suyu doğallığıyla çeşmenize getirir.",
-      "price": 2490,
+      "price": 2990,
       "image": "/ak2.jpg"
     }
   ];
