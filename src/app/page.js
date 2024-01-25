@@ -12,13 +12,10 @@ import Info from './componets/Info'
 import Sub from './componets/Sub'
 //whatsapp/services
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
-// google Analytics
-import Analytics from './componets/analytics';
 
 export default function Home() {
    return (
     <main>
-    <Analytics />
     <Header  />
     <Banner />
     <Products />
