@@ -10,12 +10,14 @@ import Services from './componets/Services'
 import Footer from './componets/Footer'
 import Info from './componets/Info'
 import Sub from './componets/Sub'
+import Analytics from './componets/Analytics'
 //whatsapp/services
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 export default function Home() {
    return (
     <main>
+    <Analytics />
     <Header  />
     <Banner />
     <Products />
