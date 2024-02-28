@@ -17,11 +17,11 @@ export default function Footer() {
         <h1 className='text-2xl border-b-2 w-fit  m-auto '>Bize ulaşın</h1>
          <div className='flex justify-center mt-4'>
            <BiPhone className='w-[30px] h-[30px] mt-1 ' /> 
-           <p className='text-md flex align-center w-[150px] h-[50px] pt-2 ml-2 '>0538 581 4225</p>
+           <p className='text-md flex align-center w-[150px] h-[50px] pt-2 ml-2 '>0506 059 3069</p>
          </div>
          <div className='flex justify-center mt-1'>
            <BiPhone className='w-[30px] h-[30px] ' /> 
-           <p className='text-md flex align-center w-[150px] h-[50px] pt-2 ml-2 '>0506 059 3069</p>
+           <p className='text-md flex align-center w-[150px] h-[50px] pt-2 ml-2 '>0538 581 4225</p>
          </div>
          <div className='flex justify-center  mt-1'>
            <AiOutlineMail className='w-[30px] h-[30px] ' alt="mail" /> 
