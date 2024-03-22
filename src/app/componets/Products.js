@@ -12,7 +12,7 @@ export default function Products() {
       "id": 0,
       "name": "Aqua Natural Evro",
       "description": "Aqua Natural Evro, yüksek performansıyla suyun doğallığını koruyarak mutfağınıza getirir.",
-      "price": 3190,
+      "price": 3690,
       "image": "/evropompasız.png"
     },
     {
