@@ -140,7 +140,9 @@ export default function Products() {
       aria-label={e.name} >
 
       <Image src={e.image}
-      alt="img" width={150} height={150} className='  mx-auto my-4 ' />
+      alt="img" width={150} height={150}
+placeholder="blur"
+ className='  mx-auto my-4 ' />
 
 
         <p className='w-full text-md border-b-2 m-auto md:text-lg'>{e.name}</p> 
